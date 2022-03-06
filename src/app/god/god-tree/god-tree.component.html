@@ -1,0 +1,29 @@
+<div id="godpage">
+  <div>
+    <h1 style="text-align: center;margin-bottom: 0px; font-size: 400%;font-family: Margadeth;">Mythsionary</h1>
+    <p style="font-style: italic;margin-top: 0px;text-align:center;padding-left: 17%; font-size: 250%;"> by Sheryl</p>
+  </div>
+  <div class="row" style="padding-bottom: 6%;">
+    <div class="col-md-3" style="background-color: #333;"></div>
+    <div class="col-md-6" style="background-color: #333;">
+      <ul style="margin-bottom: 0px;">
+        <li><a href="/">Home</a></li>
+        <li><a routerLink="/godTree">The Gods Tree</a></li>
+        <li><a routerLink="/godList">The Olympians</a></li>
+        <li><a routerLink="/heroList">The Heroes</a></li>
+        <li><a routerLink="/flowerList">The Flowers</a></li>
+        <li><a routerLink="/reference">References</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3" style="background-color: #333;"></div>
+  </div>
+
+  <gojs-diagram
+    #myDiag
+    [initDiagram]="initDiagram"
+    [modelData]="diagramModelData"
+    [nodeDataArray]="familyData"
+    [divClassName]="diagramDivClassName"
+    (modelChange)="onModelChange($event)">
+  </gojs-diagram>
+</div>

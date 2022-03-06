@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Margadeth";
+  src: url(./assets/Margadeth.ttf) format("truetype");
+}
+p.customfont { 
+  font-family: "Margadeth", Verdana, Tahoma;
+}
+.myDiagramDiv {
+    background: whitesmoke;
+    height: 900px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#centerimg img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 85%;
+}
+#centerimg img:hover {
+  max-width: 95%;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#homepage {
+  background-image: url("./assets/mount_olympus.jpg");
+  background-color: #cccccc;
+  position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+}
+#godpage {
+  background-image: url("./assets/gods_background.jpg");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+}
+#heropage {
+  background-image: url("./assets/heroes_background.jpg");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+}
+#flowerpage {
+  background-image: url("./assets/flowers_background.jpg");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+}
+#char-div {
+  background: rgba(233, 231, 221, 0.856);padding-top: 1.5%;
+}
+#char-header {
+  text-align: center; font-size: 350%; padding-bottom: 1.5%;
+}
+#char-para {
+  text-indent: 25px; text-align: justify; font-size: 150%;
+}
+#char-para-bottom {
+  text-indent: 25px; text-align: justify; font-size: 150%; margin-bottom:0%
+}
+#char-poet {
+  text-align: center; font-size: 140%;
+}

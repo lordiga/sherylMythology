@@ -1,0 +1,38 @@
+
+<div id="homepage" *ngIf="hasRoute('/')"> 
+  <div >
+    <h1 style="text-align: center;margin-bottom: 0px; font-size: 400%;font-family: Margadeth;">Mythsionary</h1>
+    <p style="font-style: italic;margin-top: 0px;text-align:center;padding-left: 17%; font-size: 250%;"> by Sheryl</p>
+  </div>
+  <div class="row" style="padding-bottom: 6%;">
+    <div class="col-md-3" style="background-color: #333;"></div>
+    <div class="col-md-6" style="background-color: #333;">
+      <ul style="margin-bottom: 0px;">
+        <li><a href="/">Home</a></li>
+        <li><a routerLink="/godTree">The Gods Tree</a></li>
+        <li><a routerLink="/godList">The Olympians</a></li>
+        <li><a routerLink="/heroList">The Heroes</a></li>
+        <li><a routerLink="/flowerList">The Flowers</a></li>
+        <li><a routerLink="/reference">References</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3" style="background-color: #333;"></div>
+  </div>
+  <div> 
+    <div  class="row" >
+      <div class="col-md-4" id="centerimg">
+        <img src="../assets/gods.jpg" routerLink="/godTree">
+        <h3 style="text-align: center; color: #333;">The Twelve Great Olympians</h3>
+      </div>
+      <div class="col-md-4" id="centerimg">
+        <img src="../assets/heroes.jpg" routerLink="/heroList">
+        <h3 style="text-align: center; color: #333;">The Four Great Heroes Before The Trojan War</h3>
+      </div>
+      <div class="col-md-4" id="centerimg">
+        <img src="../assets/flowers.jpg" routerLink="/flowerList">
+        <h3 style="text-align: center; color: #333;">The Three Flower Myths</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
