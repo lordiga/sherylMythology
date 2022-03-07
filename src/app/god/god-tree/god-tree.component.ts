@@ -113,7 +113,7 @@ export class GodTreeComponent implements OnInit, AfterViewInit  {
       // This converter is used by the Picture.
       function findHeadShot(key:any) {
         if (key < 1 || key > 35) return "../../assets/god_icon/nopic.jpg"; // There are only 16 images on the server
-        return "../../assets/god_icon/" + key + ".jpg"
+        return "/sherylMythology/assets/god_icon/" + key + ".jpg"
       }
       // define the Node template
       dia.nodeTemplate =
