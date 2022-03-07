@@ -59,6 +59,11 @@ li a:hover {
   background-color: #cccccc;
   position: absolute; top: 0; left: 0; height: 100%; width: 100%;
 }
+#godtreepage {
+  background-image: url("./assets/god_tree_background.jpg");
+  background-color: #cccccc;
+  position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+}
 #godpage {
   background-image: url("./assets/gods_background.jpg");
   background-color: #cccccc;
