@@ -82,6 +82,11 @@ li a:hover {
   background-color: #cccccc;
   background-size: 100% 100%;
 }
+#referencepage {
+  background-image: url("./assets/reference_background.jpg");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+}
 #flowerpage {
   background-image: url("./assets/flowers_background.jpg");
   background-color: #cccccc;
