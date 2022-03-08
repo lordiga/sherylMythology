@@ -7,6 +7,14 @@
   font-family: "Georgia";
   src: url(./assets/Georgia-Regular-font.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Glitten";
+  src: url(./assets/Glitten-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Augillion";
+  src: url(./assets/Augillion-DEMO.otf) format("opentype");
+}
 .myDiagramDiv {
     background: whitesmoke;
     height: 900px;
@@ -84,6 +92,7 @@ li a:hover {
   background: rgba(233, 231, 221, 0.856);padding-top: 1.5%;
 }
 #char-header {
+  font-family: "Augillion";
   text-align: center; font-size: 350%; padding-bottom: 1.5%;
 }
 #char-para {
