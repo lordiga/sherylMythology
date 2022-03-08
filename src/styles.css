@@ -3,8 +3,9 @@
   font-family: "Margadeth";
   src: url(./assets/Margadeth.ttf) format("truetype");
 }
-p.customfont { 
-  font-family: "Margadeth", Verdana, Tahoma;
+@font-face {
+  font-family: "Georgia";
+  src: url(./assets/Georgia-Regular-font.ttf) format("truetype");
 }
 .myDiagramDiv {
     background: whitesmoke;
@@ -87,10 +88,13 @@ li a:hover {
 }
 #char-para {
   text-indent: 25px; text-align: justify; font-size: 150%;
+  font-family: "Georgia";
 }
 #char-para-bottom {
+  font-family: "Georgia";
   text-indent: 25px; text-align: justify; font-size: 150%; margin-bottom:0%
 }
 #char-poet {
+  font-family: "Georgia";
   text-align: center; font-size: 140%;
 }
