@@ -76,7 +76,6 @@ li a:hover {
 #godpage {
   background-image: url("./assets/gods_background.jpg");
   background-color: #cccccc;
-  background-size: 100% 100%;
 }
 #heropage {
   background-image: url("./assets/heroes_background.jpg");
