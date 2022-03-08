@@ -185,8 +185,10 @@ export class GodTreeComponent implements OnInit, AfterViewInit  {
       };
       dia.initialAutoScale =  go.Diagram.Uniform;
       dia.add($(go.Part,  // this Part is not bound to any model data
-          { layerName: "Background", position: new go.Point(0, 0),
-            selectable: false, pickable: false },
+          { layerName: "Background", 
+            position: new go.Point(0, 0),
+            selectable: false, pickable: false,
+            imageStretch: go.GraphObject.UniformToFill },
           $(go.Picture, "/sherylMythology/assets/god_tree_background.jpg")
         ));
       this.dia = dia;
